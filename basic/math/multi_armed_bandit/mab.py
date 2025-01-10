@@ -24,7 +24,7 @@ print("epsilon-贪婪算法的累积懊悔为：", epsilon_greedy_solver.regret)
 plot_results(
     [epsilon_greedy_solver],
     ["EpsilonGreedy"],
-    "basic/multi_armed_bandit/plots/multi_armed_bandit.png",
+    "basic/math/multi_armed_bandit/plots/multi_armed_bandit.png",
 )
 
 
@@ -37,7 +37,7 @@ for solver in epsilon_greedy_solver_list:
 plot_results(
     epsilon_greedy_solver_list,
     epsilon_greedy_solver_names,
-    "basic/multi_armed_bandit/plots/multi_armed_bandit_eps_ablation.png",
+    "basic/math/multi_armed_bandit/plots/multi_armed_bandit_eps_ablation.png",
 )
 
 
@@ -47,7 +47,7 @@ print("epsilon值衰减的贪婪算法的累积懊悔为：", decaying_epsilon_g
 plot_results(
     [decaying_epsilon_greedy_solver],
     ["DecayingEpsilonGreedy"],
-    "basic/multi_armed_bandit/plots/multi_armed_bandit_decaying_eps.png",
+    "basic/math/multi_armed_bandit/plots/multi_armed_bandit_decaying_eps.png",
 )
 
 
@@ -58,7 +58,7 @@ print("上置信界算法的累积懊悔为：", UCB_solver.regret)
 plot_results(
     [UCB_solver],
     ["UCB"],
-    "basic/multi_armed_bandit/plots/multi_armed_bandit_ucb.png",
+    "basic/math/multi_armed_bandit/plots/multi_armed_bandit_ucb.png",
 )
 
 
@@ -68,5 +68,5 @@ print("汤普森采样算法的累积懊悔为：", thompson_sampling_solver.reg
 plot_results(
     [thompson_sampling_solver],
     ["ThompsonSampling"],
-    "basic/multi_armed_bandit/plots/multi_armed_bandit_ts.png",
+    "basic/math/multi_armed_bandit/plots/multi_armed_bandit_ts.png",
 )

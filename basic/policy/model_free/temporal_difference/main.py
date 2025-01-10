@@ -65,7 +65,7 @@ def sarsa():
     plt.xlabel("Episodes")
     plt.ylabel("Returns")
     plt.title("Sarsa on {}".format("Cliff Walking"))
-    plt.savefig("basic/temporal_difference/plots/sarsa.png")
+    plt.savefig("basic/policy/model_free/temporal_difference/plots/sarsa.png")
 
     action_meaning = ["^", "v", "<", ">"]
     print("Sarsa算法最终收敛得到的策略为：")
@@ -112,7 +112,7 @@ def nstep_sarsa():
     plt.xlabel("Episodes")
     plt.ylabel("Returns")
     plt.title("5-step Sarsa on {}".format("Cliff Walking"))
-    plt.savefig("basic/temporal_difference/plots/nstep_sarsa.png")
+    plt.savefig("basic/policy/model_free/temporal_difference/plots/nstep_sarsa.png")
 
     action_meaning = ["^", "v", "<", ">"]
     print("Sarsa算法最终收敛得到的策略为：")
@@ -156,7 +156,7 @@ def qlearning():
     plt.xlabel("Episodes")
     plt.ylabel("Returns")
     plt.title("Q-learning on {}".format("Cliff Walking"))
-    plt.savefig("basic/temporal_difference/plots/qlearning.png")
+    plt.savefig("basic/policy/model_free/temporal_difference/plots/qlearning.png")
 
     action_meaning = ["^", "v", "<", ">"]
     print("Q-learning算法最终收敛得到的策略为：")

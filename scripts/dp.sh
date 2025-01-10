@@ -1,1 +1,1 @@
-python -m basic.dynamic_programming.main
+python -m basic.policy.model_based.dynamic_programming.main

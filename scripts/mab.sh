@@ -1,1 +1,1 @@
-python -m basic.multi_armed_bandit.mab
+python -m basic.math.multi_armed_bandit.mab
