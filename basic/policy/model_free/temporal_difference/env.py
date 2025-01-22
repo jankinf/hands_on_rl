@@ -1,8 +1,3 @@
-import matplotlib.pyplot as plt
-import numpy as np
-from tqdm import tqdm  # tqdm是显示循环进度条的库
-
-
 class CliffWalkingEnv:
     def __init__(self, ncol, nrow):
         self.nrow = nrow
